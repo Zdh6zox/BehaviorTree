@@ -19,5 +19,33 @@
     <Filter Include="Public\Nodes">
       <UniqueIdentifier>{92b9278f-58b8-45e9-8fb9-48daad7d03c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Public\Nodes\Composites">
+      <UniqueIdentifier>{afba72d5-6851-4757-afac-7895e3e4b916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Nodes\Actions">
+      <UniqueIdentifier>{0dc20049-0c06-4cc9-9411-b91a331c516d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Nodes\Composites">
+      <UniqueIdentifier>{b7e5a353-5c0b-41a7-9de3-0f0a822586d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Nodes\Actions">
+      <UniqueIdentifier>{9877a00d-ca52-411f-93ab-a6f58bfc9f7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\Public\Nodes\Actions\action.h">
+      <Filter>Public\Nodes\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Private\Nodes\Composites\selector.h">
+      <Filter>Public\Nodes\Composites</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Private\Nodes\Actions\action.cpp">
+      <Filter>Private\Nodes\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Private\Nodes\Composites\selector.cpp">
+      <Filter>Private\Nodes\Composites</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
